@@ -5,11 +5,9 @@ This API allows users to create, retrieve, update, and delete notes. It's built 
 ## Getting Started
 To get started with this API, clone the repository and install the required dependencies.
 
-bash
-Copy code
-git clone [repository-url]
-cd [repository-directory]
 ```node
+git clone https://github.com/cvasingh/note-taking-api.git
+cd note-taking-api
 npm install
 ```
 
@@ -46,7 +44,7 @@ Content: { error : "error message" }
 ```
 
 #### Update Note
-```
+```node
 URL: /
 Method: PUT
 URL Query Params:
@@ -65,7 +63,7 @@ Content: { error : "error message" }
 ```
 
 #### Delete Note
-```
+```node
 URL: /
 Method: DELETE
 URL Params:
