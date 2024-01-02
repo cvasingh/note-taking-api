@@ -86,3 +86,10 @@ Before starting the server, make sure that port 3000 is available and your machi
 ```node
 npm start
 ```
+
+## Running Tests
+To run the automated test suite, use the `npm test` command. This will execute the tests defined in your test files using Mocha and Chai.
+
+```node
+npm test
+```

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "author": "shiva singh",
   "license": "ISC",
@@ -14,5 +14,10 @@
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
     "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }
