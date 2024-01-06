@@ -93,3 +93,15 @@ To run the automated test suite, use the `npm test` command. This will execute t
 ```node
 npm test
 ```
+
+## Swagger Documentation
+I have generated Swagger documentation for this API, which makes it easier to understand and interact with the endpoints. You can access the Swagger UI at the following URL:
+
+```node
+npm start
+```
+
+[Swagger UI](http://localhost:3000/api-docs) - Swagger UI for exploring and testing the API endpoints.
+
+
+To see the API's detailed documentation, you can refer to the [Swagger JSON file](swagger_output.json) included in this repository.
